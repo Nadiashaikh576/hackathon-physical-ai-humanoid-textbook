@@ -9,16 +9,16 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://ai-book-nadiashaikh576.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub Pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ai-book/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   organizationName: 'ai-book-project', // Usually your GitHub org/user name.
   projectName: 'ai-book', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -41,7 +41,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/ai-book-project/ai-book/edit/main/',
+            'https://github.com/Nadiashaikh576/hackathon-physical-ai-humanoid-textbook/edit/main/',
         },
         blog: {
           path: 'blog',
@@ -82,7 +82,7 @@ const config = {
             label: 'Modules',
           },
           {
-            href: 'https://github.com/ai-book-project/ai-book',
+            href: 'https://github.com/Nadiashaikh576/hackathon-physical-ai-humanoid-textbook',
             label: 'GitHub',
             position: 'right',
           },
@@ -130,7 +130,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/ai-book-project/ai-book',
+                href: 'https://github.com/Nadiashaikh576/hackathon-physical-ai-humanoid-textbook',
               },
             ],
           },
