@@ -97,4 +97,4 @@ VSLAM is fundamental to enabling humanoid robots to understand and navigate thei
 ## Cross-References
 
 - **Prerequisites from Chapter 1**: This chapter builds on perception concepts introduced in [Perception in Humanoid Intelligence](../chapter-1-isaac-sim/perception.md) and the simulation concepts from [Photorealistic Simulation](../chapter-1-isaac-sim/synthetic-worlds.md).
-- **Future Concepts**: The localization techniques in this chapter are essential for the navigation systems described in Chapter 3, particularly in [Localization and Mapping in Complex Environments](../chapter-3-nav2/localization-mapping.md).
+- **Future Concepts**: The localization techniques in this chapter are essential for the navigation systems described in Chapter 3, particularly in [Navigation Stacks](../chapter-3-nav2/index.md).

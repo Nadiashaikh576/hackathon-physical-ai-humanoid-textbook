@@ -19,11 +19,11 @@ This chapter builds on the voice-to-action concepts from Chapter 1, showing how 
 
 ## Sections
 
-1. [LLMs as reasoning and planning engines](../chapter-2-cognitive-planning/llm-reasoning.md)
-2. [Translating natural language goals into action sequences](../chapter-2-cognitive-planning/language-to-actions.md)
-3. [Task decomposition and decision-making](../chapter-2-cognitive-planning/task-decomposition.md)
-4. [Error handling and replanning](../chapter-2-cognitive-planning/error-handling.md)
-5. [Safety and controllability](../chapter-2-cognitive-planning/safety-controllability.md)
+1. [LLMs as reasoning and planning engines](llm-reasoning.md)
+2. [Translating natural language goals into action sequences](language-to-actions.md)
+3. [Task decomposition and decision-making](task-decomposition.md)
+4. [Error handling and replanning](error-handling.md)
+5. [Safety and controllability](safety-controllability.md)
 
 ![Cognitive Planning Process](/img/cognitive-planning-process.png)
 *Figure 4.3: Visualization of the cognitive planning process showing how LLMs translate natural language goals into action sequences.*

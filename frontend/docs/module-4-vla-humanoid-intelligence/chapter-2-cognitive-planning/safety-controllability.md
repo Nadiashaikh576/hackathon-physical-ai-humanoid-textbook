@@ -185,4 +185,4 @@ Safety and controllability are fundamental requirements for humanoid robots oper
 ## Cross-References
 
 - **Prerequisites from Chapter 1**: Safety considerations connect to the [Limitations and Latency](../chapter-1-voice-to-action/limitations-latency.md) concepts by ensuring that voice command processing and execution meet safety requirements.
-- **Future Concepts**: The safety frameworks discussed here connect to the comprehensive safety approaches in Chapter 3, particularly in [Safety and Controllability](../chapter-3-autonomous-humanoid/safety-controllability.md).
+- **Future Concepts**: The safety frameworks discussed here connect to the comprehensive safety approaches in Chapter 3, particularly in [Safety and Controllability](../chapter-3-autonomous-humanoid/index.md).

@@ -20,6 +20,10 @@ const config = {
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    format: 'mdx',
+    mermaid: false,
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -96,19 +100,19 @@ const config = {
             items: [
               {
                 label: 'Module 1: The Robotic Nervous System (ROS 2)',
-                to: '/docs/module-1_ros2-nervous-system/intro',
+                to: '/module-1_ros2-nervous-system/intro',
               },
               {
                 label: 'Module 2: The Digital Twin (Gazebo & Unity)',
-                to: '/docs/module-2_digital-twin-sim/intro',
+                to: '/module-2_digital-twin-sim/intro',
               },
               {
                 label: 'Module 3: The AI-Robot Brain (NVIDIA Isaac™)',
-                to: '/docs/module-3-isaac-robot-brain/intro',
+                to: '/module-3-isaac-robot-brain/intro',
               },
               {
                 label: 'Module 4: Vision-Language-Action (VLA) Humanoid Intelligence',
-                to: '/docs/module-4-vla-humanoid-intelligence/intro',
+                to: '/module-4-vla-humanoid-intelligence/intro',
               },
             ],
           },
