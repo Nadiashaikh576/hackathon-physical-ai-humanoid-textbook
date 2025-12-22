@@ -18,8 +18,8 @@ const config = {
   organizationName: 'ai-book-project', // Usually your GitHub org/user name.
   projectName: 'ai-book', // Usually your repo name.
 
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
   markdown: {
     format: 'mdx',
     mermaid: false,

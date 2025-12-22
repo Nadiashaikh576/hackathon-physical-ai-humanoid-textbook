@@ -175,4 +175,4 @@ Error handling and replanning are critical capabilities that enable humanoid rob
 ## Cross-References
 
 - **Prerequisites from Chapter 1**: Error handling connects to the [ROS 2 Integration](../chapter-1-voice-to-action/ros2-integration.md) concepts by requiring robust communication systems that can handle and report errors in the voice processing pipeline.
-- **Future Concepts**: Error handling mechanisms discussed here connect to the safety considerations in Chapter 3, particularly in [Safety and Controllability](safety-controllability.md).
+- **Future Concepts**: Error handling mechanisms discussed here connect to the safety considerations in Chapter 3, particularly in [Autonomous Humanoid Systems](../chapter-3-autonomous-humanoid/index.md).
