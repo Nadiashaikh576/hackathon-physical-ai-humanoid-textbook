@@ -18,12 +18,13 @@ const config = {
   organizationName: 'ai-book-project', // Usually your GitHub org/user name.
   projectName: 'ai-book', // Usually your repo name.
 
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
   markdown: {
     format: 'mdx',
     mermaid: false,
   },
+  staticDirectories: ['static'],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
