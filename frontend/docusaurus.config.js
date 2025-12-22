@@ -12,14 +12,14 @@ const config = {
   url: 'https://ai-book-nadiashaikh576.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub Pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/ai-book/',
 
   // GitHub pages deployment config.
   organizationName: 'ai-book-project', // Usually your GitHub org/user name.
   projectName: 'ai-book', // Usually your repo name.
 
-  onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'ignore',
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
   markdown: {
     format: 'mdx',
     mermaid: false,
@@ -41,7 +41,6 @@ const config = {
       ({
         docs: {
           // sidebarPath: './sidebars.js',
-            routeBasePath: '/',   // IMPORTANT
         sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -101,19 +100,19 @@ const config = {
             items: [
               {
                 label: 'Module 1: The Robotic Nervous System (ROS 2)',
-                to: '/module-1_ros2-nervous-system/intro',
+                to: '/ai-book/docs/module-1_ros2-nervous-system/intro',
               },
               {
                 label: 'Module 2: The Digital Twin (Gazebo & Unity)',
-                to: '/module-2_digital-twin-sim/intro',
+                to: '/ai-book/docs/module-2_digital-twin-sim/intro',
               },
               {
                 label: 'Module 3: The AI-Robot Brain (NVIDIA Isaac™)',
-                to: '/module-3-isaac-robot-brain/intro',
+                to: '/ai-book/docs/module-3-isaac-robot-brain/intro',
               },
               {
                 label: 'Module 4: Vision-Language-Action (VLA) Humanoid Intelligence',
-                to: '/module-4-vla-humanoid-intelligence/intro',
+                to: '/ai-book/docs/module-4-vla-humanoid-intelligence/intro',
               },
             ],
           },
