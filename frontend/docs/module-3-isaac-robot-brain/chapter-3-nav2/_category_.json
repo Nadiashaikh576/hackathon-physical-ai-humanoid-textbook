@@ -1,0 +1,8 @@
+{
+  "label": "Chapter 3: Nav2 — Path Planning for Humanoid Robots",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Global vs local path planning, obstacle avoidance and environment awareness, navigation stacks for legged robots, preparing humanoids for real-world movement."
+  }
+}

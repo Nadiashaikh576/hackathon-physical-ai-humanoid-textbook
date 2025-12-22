@@ -1,0 +1,149 @@
+.navigationCard {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-global-radius);
+  text-decoration: none;
+  color: inherit;
+  transition: all var(--ifm-transition-fast) ease;
+  background-color: var(--ifm-color-emphasis-0);
+  margin-bottom: 1rem;
+}
+
+.navigationCard:hover {
+  transform: translateX(4px);
+  box-shadow: var(--ifm-global-shadow-md);
+  border-color: var(--ifm-color-primary);
+}
+
+.link {
+  text-decoration: none;
+  display: block;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--ifm-global-radius);
+  font-size: 1.25rem;
+}
+
+.content {
+  flex: 1;
+}
+
+.title {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.1rem;
+  font-weight: var(--ifm-font-weight-bold);
+}
+
+.description {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.9rem;
+}
+
+/* Type-specific styling */
+.typeros2 {
+  border-left: 4px solid var(--robotics-blue);
+}
+
+.typeisaac {
+  border-left: 4px solid var(--simulation-green);
+}
+
+.typevla {
+  border-left: 4px solid var(--ai-purple);
+}
+
+.typenav2 {
+  border-left: 4px solid var(--navigation-orange);
+}
+
+.typegeneral {
+  border-left: 4px solid var(--ifm-color-emphasis-500);
+}
+
+.typeros2 .icon {
+  background-color: rgba(30, 64, 175, 0.1);
+  color: var(--robotics-blue);
+}
+
+.typeisaac .icon {
+  background-color: rgba(22, 163, 74, 0.1);
+  color: var(--simulation-green);
+}
+
+.typevla .icon {
+  background-color: rgba(126, 34, 206, 0.1);
+  color: var(--ai-purple);
+}
+
+.typenav2 .icon {
+  background-color: rgba(234, 88, 12, 0.1);
+  color: var(--navigation-orange);
+}
+
+.typegeneral .icon {
+  background-color: var(--ifm-color-emphasis-100);
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* Dark mode adjustments */
+html[data-theme='dark'] .navigationCard {
+  background-color: var(--ifm-card-background-color);
+  border-color: var(--ifm-color-emphasis-600);
+}
+
+html[data-theme='dark'] .navigationCard:hover {
+  border-color: var(--ifm-color-primary-light);
+}
+
+html[data-theme='dark'] .description {
+  color: var(--ifm-color-emphasis-600);
+}
+
+html[data-theme='dark'] .typeros2 .icon {
+  background-color: rgba(37, 99, 235, 0.2);
+}
+
+html[data-theme='dark'] .typeisaac .icon {
+  background-color: rgba(34, 197, 94, 0.2);
+}
+
+html[data-theme='dark'] .typevla .icon {
+  background-color: rgba(168, 85, 247, 0.2);
+}
+
+html[data-theme='dark'] .typenav2 .icon {
+  background-color: rgba(249, 115, 22, 0.2);
+}
+
+html[data-theme='dark'] .typegeneral .icon {
+  background-color: var(--ifm-color-emphasis-800);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navigationCard {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .iconContainer {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Module 1: The Robotic Nervous System (ROS 2)",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "This module introduces ROS 2 as the middleware nervous system of humanoid robots. Learners will understand how ROS 2 enables reliable communication and control across robotic components using nodes, topics, and services. The module also covers how Python-based AI agents interact with ROS controllers through rclpy, and how humanoid robot structure is defined using URDF for simulation and control readiness."
+  }
+}

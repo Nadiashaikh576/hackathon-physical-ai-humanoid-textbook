@@ -1,0 +1,313 @@
+/**
+ * Component-specific styles for AI-Native Book
+ * 
+ * This file contains styles for various components used throughout the book
+ */
+
+/* Simulation Diagram Component */
+.simulation-diagram {
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: #f9fafb;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+html[data-theme='dark'] .simulation-diagram {
+  border-color: #374151;
+  background-color: #1f2937;
+}
+
+.simulation-diagram-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--robotics-blue);
+}
+
+html[data-theme='dark'] .simulation-diagram-title {
+  color: var(--ifm-color-primary-lighter);
+}
+
+/* Code Block Variants */
+.gazebo-code {
+  background-color: #e6f3ff;
+  border-left: 4px solid #0066cc;
+}
+
+.unity-code {
+  background-color: #fff0e6;
+  border-left: 4px solid #ff6600;
+}
+
+.ros2-code {
+  background-color: #e6ffe6;
+  border-left: 4px solid #2e7d32;
+}
+
+.vla-code {
+  background-color: #f8e6ff;
+  border-left: 4px solid #9c27b0;
+}
+
+html[data-theme='dark'] .gazebo-code {
+  background-color: #0a2d5c;
+  border-left: 4px solid #3b82f6;
+}
+
+html[data-theme='dark'] .unity-code {
+  background-color: #5c2d0a;
+  border-left: 4px solid #f97316;
+}
+
+html[data-theme='dark'] .ros2-code {
+  background-color: #1a3d1a;
+  border-left: 4px solid #4ade80;
+}
+
+html[data-theme='dark'] .vla-code {
+  background-color: #3d1a4d;
+  border-left: 4px solid #c084fc;
+}
+
+/* Robot Model Diagrams */
+.robot-model {
+  text-align: center;
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  background-color: #f9fafb;
+}
+
+html[data-theme='dark'] .robot-model {
+  border-color: #374151;
+  background-color: #1f2937;
+}
+
+.robot-model img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+}
+
+/* Sensor Simulation Diagrams */
+.sensor-diagram {
+  background-color: #f0f9ff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #bae6fd;
+  margin: 1rem 0;
+}
+
+html[data-theme='dark'] .sensor-diagram {
+  background-color: #0c4a6e;
+  border-color: #0ea5e9;
+}
+
+/* Alert Variants */
+.alert--robotics {
+  border-left-color: var(--robotics-blue);
+}
+
+.alert--ai {
+  border-left-color: var(--ai-purple);
+}
+
+.alert--simulation {
+  border-left-color: var(--simulation-green);
+}
+
+.alert--navigation {
+  border-left-color: var(--navigation-orange);
+}
+
+/* Card Component Styles */
+.module-card {
+  transition: all 0.3s ease;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+html[data-theme='dark'] .module-card {
+  border-color: #374151;
+}
+
+.module-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.module-card-header {
+  padding: 1.5rem 1.5rem 0.5rem;
+}
+
+.module-card-body {
+  padding: 0 1.5rem 1.5rem;
+}
+
+.module-card-icon {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.module-card-1 .module-card-icon {
+  background-color: rgba(30, 64, 175, 0.1);
+  color: var(--robotics-blue);
+}
+
+.module-card-2 .module-card-icon {
+  background-color: rgba(22, 163, 74, 0.1);
+  color: var(--simulation-green);
+}
+
+.module-card-3 .module-card-icon {
+  background-color: rgba(126, 34, 206, 0.1);
+  color: var(--ai-purple);
+}
+
+.module-card-4 .module-card-icon {
+  background-color: rgba(234, 88, 12, 0.1);
+  color: var(--navigation-orange);
+}
+
+/* Navigation Link Styles */
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  text-decoration: none;
+  transition: all 0.2s;
+  margin-bottom: 0.25rem;
+}
+
+.nav-link:hover {
+  background-color: #f3f4f6;
+}
+
+html[data-theme='dark'] .nav-link:hover {
+  background-color: #374151;
+}
+
+/* Progress Indicator */
+.progress-indicator {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  background-color: #f3f4f6;
+  border: 1px solid #d1d5db;
+}
+
+html[data-theme='dark'] .progress-indicator {
+  background-color: #374151;
+  border-color: #4b5563;
+}
+
+.progress-bar {
+  flex-grow: 1;
+  height: 0.75rem;
+  background-color: #e5e7eb;
+  border-radius: 9999px;
+  overflow: hidden;
+  margin: 0 1rem;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--robotics-blue), var(--ai-purple));
+  border-radius: 9999px;
+  width: 40%; /* Default width, can be customized */
+}
+
+/* Exercise and Practice Components */
+.exercise-container {
+  border: 2px solid #d1d5db;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  background-color: #f9fafb;
+}
+
+html[data-theme='dark'] .exercise-container {
+  border-color: #4b5563;
+  background-color: #1f2937;
+}
+
+.exercise-title {
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.exercise-icon {
+  margin-right: 0.5rem;
+  color: var(--ifm-color-primary);
+}
+
+/* Terminal/Console Styles */
+.terminal-block {
+  background-color: #1f2937;
+  color: #f9fafb;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  margin: 1rem 0;
+  overflow-x: auto;
+  border: 1px solid #374151;
+}
+
+.terminal-prompt {
+  color: #22c55e;
+}
+
+.terminal-command {
+  color: #93c5fd;
+}
+
+.terminal-output {
+  color: #d1d5db;
+}
+
+/* Diagram Container */
+.diagram-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: #f9fafb;
+  border-radius: 0.5rem;
+  border: 1px solid #e5e7eb;
+}
+
+html[data-theme='dark'] .diagram-container {
+  background-color: #1f2937;
+  border-color: #374151;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .simulation-diagram,
+  .robot-model,
+  .sensor-diagram,
+  .exercise-container {
+    padding: 0.75rem;
+    margin: 0.75rem 0;
+  }
+  
+  .module-card-body,
+  .module-card-header {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Module 4: Vision-Language-Action (VLA) Humanoid Intelligence",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "How language, vision, and action are unified in humanoid robots using large language models, speech recognition, and perception systems."
+  }
+}

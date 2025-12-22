@@ -1,0 +1,98 @@
+.simulationDiagram {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-card-border-radius);
+  padding: var(--ifm-spacing-md);
+  margin: var(--ifm-spacing-md) 0;
+  background-color: var(--ifm-card-background-color);
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+.simulationDiagram h4 {
+  margin-top: 0;
+  margin-bottom: var(--ifm-spacing-sm);
+  color: var(--ifm-heading-color);
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+  padding-bottom: var(--ifm-spacing-xs);
+  font-size: var(--ifm-h4-font-size);
+  font-weight: var(--ifm-heading-font-weight);
+}
+
+.content {
+  margin: var(--ifm-spacing-sm) 0;
+}
+
+.description {
+  font-style: italic;
+  color: var(--ifm-color-emphasis-700);
+  margin: var(--ifm-spacing-sm) 0 0 0;
+  font-size: 0.9rem;
+}
+
+/* Specific styles for different types of diagrams */
+.ros2 {
+  border-left: 4px solid var(--robotics-blue);
+  background-color: rgba(30, 64, 175, 0.05);
+}
+
+.isaac {
+  border-left: 4px solid var(--simulation-green);
+  background-color: rgba(22, 163, 74, 0.05);
+}
+
+.vla {
+  border-left: 4px solid var(--ai-purple);
+  background-color: rgba(126, 34, 206, 0.05);
+}
+
+.nav2 {
+  border-left: 4px solid var(--navigation-orange);
+  background-color: rgba(234, 88, 12, 0.05);
+}
+
+.sensor {
+  border-left: 4px solid #e74c3c;
+  background-color: rgba(231, 76, 60, 0.05);
+}
+
+.physics {
+  border-left: 4px solid #f39c12;
+  background-color: rgba(243, 156, 18, 0.05);
+}
+
+/* Dark mode adjustments */
+html[data-theme='dark'] .simulationDiagram {
+  background-color: var(--ifm-card-background-color);
+  border: 1px solid var(--ifm-color-emphasis-500);
+}
+
+html[data-theme='dark'] .simulationDiagram h4 {
+  border-bottom: 1px solid var(--ifm-color-emphasis-500);
+}
+
+html[data-theme='dark'] .description {
+  color: var(--ifm-color-emphasis-600);
+}
+
+html[data-theme='dark'] .ros2 {
+  background-color: rgba(37, 99, 235, 0.1);
+}
+
+html[data-theme='dark'] .isaac {
+  background-color: rgba(34, 197, 94, 0.1);
+}
+
+html[data-theme='dark'] .vla {
+  background-color: rgba(168, 85, 247, 0.1);
+}
+
+html[data-theme='dark'] .nav2 {
+  background-color: rgba(249, 115, 22, 0.1);
+}
+
+html[data-theme='dark'] .sensor {
+  background-color: rgba(239, 68, 68, 0.1);
+}
+
+html[data-theme='dark'] .physics {
+  background-color: rgba(245, 158, 11, 0.1);
+}

@@ -1,0 +1,11 @@
+ai_robotics_team:
+  name: AI Robotics Team
+  title: Experts in Humanoid Robotics and AI
+  url: https://example.com/ai-robotics-team
+  image_url: https://github.com/ai-robotics-team.png
+
+humanoid_researcher:
+  name: Humanoid Researcher
+  title: Specialist in Humanoid Robot Development
+  url: https://example.com/humanoid-researcher
+  image_url: https://github.com/humanoid-researcher.png

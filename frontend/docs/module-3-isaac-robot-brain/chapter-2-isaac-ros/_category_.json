@@ -1,0 +1,8 @@
+{
+  "label": "Chapter 2: Isaac ROS — Visual SLAM & Navigation",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Visual SLAM concepts, hardware-accelerated perception pipelines, localization and mapping in complex environments, integrating Isaac ROS with ROS 2 systems."
+  }
+}

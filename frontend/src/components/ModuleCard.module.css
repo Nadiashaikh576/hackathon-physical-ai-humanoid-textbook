@@ -1,0 +1,120 @@
+.moduleCard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-card-border-radius);
+  overflow: hidden;
+  transition: all var(--ifm-transition-fast) ease;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+.moduleCard:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--ifm-global-shadow-md);
+  border-color: var(--ifm-color-primary);
+}
+
+.link {
+  text-decoration: none;
+  display: block;
+}
+
+.cardHeader {
+  padding: var(--ifm-card-vertical-spacing) var(--ifm-card-horizontal-spacing);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--ifm-spacing-sm);
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--ifm-global-radius);
+  font-size: 1.5rem;
+}
+
+.title {
+  margin: 0;
+  font-size: var(--ifm-h3-font-size);
+  font-weight: var(--ifm-heading-font-weight);
+  text-align: center;
+}
+
+.cardBody {
+  padding: 0 var(--ifm-card-horizontal-spacing) var(--ifm-card-vertical-spacing);
+}
+
+.description {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  text-align: center;
+}
+
+/* Module-specific styling */
+.moduleCard1 .icon {
+  background-color: rgba(30, 64, 175, 0.1);
+  color: var(--robotics-blue);
+}
+
+.moduleCard2 .icon {
+  background-color: rgba(22, 163, 74, 0.1);
+  color: var(--simulation-green);
+}
+
+.moduleCard3 .icon {
+  background-color: rgba(126, 34, 206, 0.1);
+  color: var(--ai-purple);
+}
+
+.moduleCard4 .icon {
+  background-color: rgba(234, 88, 12, 0.1);
+  color: var(--navigation-orange);
+}
+
+/* Dark mode adjustments */
+html[data-theme='dark'] .moduleCard {
+  border-color: var(--ifm-color-emphasis-600);
+}
+
+html[data-theme='dark'] .moduleCard:hover {
+  border-color: var(--ifm-color-primary-light);
+}
+
+html[data-theme='dark'] .description {
+  color: var(--ifm-color-emphasis-600);
+}
+
+html[data-theme='dark'] .moduleCard1 .icon {
+  background-color: rgba(37, 99, 235, 0.2);
+}
+
+html[data-theme='dark'] .moduleCard2 .icon {
+  background-color: rgba(34, 197, 94, 0.2);
+}
+
+html[data-theme='dark'] .moduleCard3 .icon {
+  background-color: rgba(168, 85, 247, 0.2);
+}
+
+html[data-theme='dark'] .moduleCard4 .icon {
+  background-color: rgba(249, 115, 22, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 996px) {
+  .moduleCard {
+    margin-bottom: var(--ifm-spacing-md);
+  }
+}

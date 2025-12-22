@@ -1,0 +1,242 @@
+/**
+ * Custom CSS for AI-Native Book: Physical AI & Humanoid Robotics
+ * 
+ * This file contains the main styling for the Docusaurus site
+ */
+
+/* Main theme colors */
+:root {
+  --ifm-color-primary: #2563eb;
+  --ifm-color-primary-dark: #1d4ed8;
+  --ifm-color-primary-darker: #1a47c2;
+  --ifm-color-primary-darkest: #153a9e;
+  --ifm-color-primary-light: #3b82f6;
+  --ifm-color-primary-lighter: #60a5fa;
+  --ifm-color-primary-lightest: #93c5fd;
+  --ifm-code-font-size: 95%;
+  
+  /* Custom colors for AI/Humanoid Robotics theme */
+  --robotics-blue: #1e40af;
+  --ai-purple: #7e22ce;
+  --simulation-green: #16a34a;
+  --navigation-orange: #ea580c;
+  --humanoid-gray: #64748b;
+  
+  /* Card and container styles */
+  --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --card-shadow-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Dark mode colors */
+html[data-theme='dark'] {
+  --ifm-color-primary: #3b82f6;
+  --ifm-color-primary-dark: #2563eb;
+  --ifm-color-primary-darker: #1d4ed8;
+  --ifm-color-primary-darkest: #1e40af;
+  --ifm-color-primary-light: #60a5fa;
+  --ifm-color-primary-lighter: #93c5fd;
+  --ifm-color-primary-lightest: #bfdbfe;
+  
+  /* Dark mode custom colors */
+  --robotics-blue: #3b82f6;
+  --ai-purple: #a855f7;
+  --simulation-green: #4ade80;
+  --navigation-orange: #fb923c;
+  --humanoid-gray: #94a3b8;
+}
+
+/* Main layout styles */
+.docusaurus-mt-lg {
+  margin-top: 2rem;
+}
+
+/* Custom header styles */
+.header-title {
+  font-weight: 700;
+  background: linear-gradient(90deg, var(--robotics-blue), var(--ai-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Card component styles */
+.card {
+  border-radius: 0.75rem;
+  box-shadow: var(--card-shadow);
+  transition: box-shadow 0.3s ease;
+  border: none;
+  margin-bottom: 1.5rem;
+}
+
+.card:hover {
+  box-shadow: var(--card-shadow-hover);
+}
+
+.card-header {
+  background-color: rgba(37, 99, 235, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 1rem 1.5rem;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+/* Module-specific styling */
+.module-intro-card {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  border: 1px solid #bae6fd;
+}
+
+html[data-theme='dark'] .module-intro-card {
+  background: linear-gradient(135deg, #0c4a6e 0%, #082f49 100%);
+  border: 1px solid #0ea5e9;
+}
+
+/* Navigation and sidebar enhancements */
+.menu__list-item-collapsible .menu__link--sublist {
+  font-weight: 600;
+}
+
+/* Code block enhancements */
+.code-block-robotics {
+  border-left: 4px solid var(--robotics-blue);
+}
+
+.code-block-ai {
+  border-left: 4px solid var(--ai-purple);
+}
+
+.code-block-simulation {
+  border-left: 4px solid var(--simulation-green);
+}
+
+/* Button styles */
+.button--robotics {
+  background-color: var(--robotics-blue);
+  border-color: var(--robotics-blue);
+}
+
+.button--robotics:hover {
+  background-color: var(--ifm-color-primary-darker);
+  border-color: var(--ifm-color-primary-darker);
+}
+
+.button--ai {
+  background-color: var(--ai-purple);
+  border-color: var(--ai-purple);
+}
+
+.button--ai:hover {
+  background-color: #6d28d9;
+  border-color: #6d28d9;
+}
+
+/* Alert styles for different content types */
+.alert--robotics {
+  --ifm-alert-background-color: #dbeafe;
+  --ifm-alert-border-color: #3b82f6;
+}
+
+.alert--simulation {
+  --ifm-alert-background-color: #dcfce7;
+  --ifm-alert-border-color: #22c55e;
+}
+
+.alert--navigation {
+  --ifm-alert-background-color: #fed7aa;
+  --ifm-alert-border-color: #f97316;
+}
+
+html[data-theme='dark'] .alert--robotics {
+  --ifm-alert-background-color: #1e3a8a;
+  --ifm-alert-border-color: #60a5fa;
+}
+
+html[data-theme='dark'] .alert--simulation {
+  --ifm-alert-background-color: #15803d;
+  --ifm-alert-border-color: #4ade80;
+}
+
+html[data-theme='dark'] .alert--navigation {
+  --ifm-alert-background-color: #9a3412;
+  --ifm-alert-border-color: #fb923c;
+}
+
+/* Table enhancements */
+.table-enhanced {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.table-enhanced th {
+  background-color: rgba(37, 99, 235, 0.1);
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 2px solid var(--ifm-color-primary);
+}
+
+.table-enhanced td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table-enhanced tr:last-child td {
+  border-bottom: none;
+}
+
+html[data-theme='dark'] .table-enhanced th {
+  background-color: rgba(59, 130, 246, 0.15);
+  border-bottom: 2px solid var(--ifm-color-primary);
+}
+
+html[data-theme='dark'] .table-enhanced td {
+  border-bottom: 1px solid #374151;
+}
+
+/* Module-specific section styling */
+.section-robotics {
+  padding: 3rem 0;
+  background-color: rgba(30, 64, 175, 0.03);
+}
+
+.section-ai {
+  padding: 3rem 0;
+  background-color: rgba(126, 34, 206, 0.03);
+}
+
+.section-simulation {
+  padding: 3rem 0;
+  background-color: rgba(22, 163, 74, 0.03);
+}
+
+html[data-theme='dark'] .section-robotics {
+  background-color: rgba(30, 64, 175, 0.08);
+}
+
+html[data-theme='dark'] .section-ai {
+  background-color: rgba(126, 34, 206, 0.08);
+}
+
+html[data-theme='dark'] .section-simulation {
+  background-color: rgba(22, 163, 74, 0.08);
+}
+
+/* Typography enhancements */
+.text-gradient {
+  background: linear-gradient(90deg, var(--robotics-blue), var(--ai-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Responsive adjustments */
+@media (max-width: 996px) {
+  .section-robotics,
+  .section-ai,
+  .section-simulation {
+    padding: 2rem 0;
+  }
+}

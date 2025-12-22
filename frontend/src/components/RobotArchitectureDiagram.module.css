@@ -1,0 +1,99 @@
+.architectureDiagram {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-card-border-radius);
+  padding: var(--ifm-spacing-md);
+  margin: var(--ifm-spacing-md) 0;
+  background-color: var(--ifm-card-background-color);
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: var(--ifm-spacing-sm);
+  color: var(--ifm-heading-color);
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+  padding-bottom: var(--ifm-spacing-xs);
+  font-size: var(--ifm-h4-font-size);
+  font-weight: var(--ifm-heading-font-weight);
+}
+
+.content {
+  margin: var(--ifm-spacing-md) 0;
+  display: flex;
+  justify-content: center;
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+  gap: var(--ifm-spacing-md);
+  flex-wrap: wrap;
+  margin-top: var(--ifm-spacing-md);
+  padding-top: var(--ifm-spacing-sm);
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: var(--ifm-spacing-xs);
+  font-size: 0.85rem;
+}
+
+.legendColor {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.input {
+  background-color: var(--simulation-green);
+}
+
+.processing {
+  background-color: var(--ai-purple);
+}
+
+.output {
+  background-color: var(--robotics-blue);
+}
+
+/* Type-specific styling */
+.vla {
+  border-left: 4px solid var(--ai-purple);
+}
+
+.ros2 {
+  border-left: 4px solid var(--robotics-blue);
+}
+
+.isaac {
+  border-left: 4px solid var(--simulation-green);
+}
+
+.nav2 {
+  border-left: 4px solid var(--navigation-orange);
+}
+
+/* Dark mode adjustments */
+html[data-theme='dark'] .architectureDiagram {
+  background-color: var(--ifm-card-background-color);
+  border: 1px solid var(--ifm-color-emphasis-500);
+}
+
+html[data-theme='dark'] .architectureDiagram h4 {
+  border-bottom: 1px solid var(--ifm-color-emphasis-500);
+}
+
+html[data-theme='dark'] .legend {
+  border-top: 1px solid var(--ifm-color-emphasis-600);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .legend {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--ifm-spacing-xs);
+  }
+}

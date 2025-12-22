@@ -1,0 +1,8 @@
+{
+  "label": "Module 3: The AI-Robot Brain (NVIDIA Isaac™)",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "How advanced AI systems act as the brain of humanoid robots using NVIDIA Isaac for perception, training, localization, and navigation."
+  }
+}

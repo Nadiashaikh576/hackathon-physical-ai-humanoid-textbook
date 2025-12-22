@@ -1,0 +1,203 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env*
+.env
+.DS_Store
+Thumbs.db
+
+# Docusaurus build output
+frontend/build/
+frontend/dist/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+*.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Backend specific
+backend/__pycache__/
+backend/*.pyc
+backend/venv/
+backend/.env*
+
+# Local development
+local/
+*.local
+
+# Windows system files
+Desktop/
+Documents/
+Downloads/
+Music/
+Pictures/
+Videos/
+Favorites/
+Contacts/
+Links/
+Saved\ Games/
+AppData/
+NTUSER.*
+ntuser.*
+Application\ Data/
+Local\ Settings/
+My\ Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start\ Menu/
+Templates/
+IntelGraphicsProfiles/
+
+# User profile directories
+Contacts/
+Cookies/
+History/
+Libraries/
+Searches/
+
+# Cache directories
+.cache/
+.claude-code-router/
+.cursor/
+.gemini/
+.th-client/
+.config/
+.streamlit/
+.ssh/
+
+# Docusaurus build output and cache
+frontend/.docusaurus/
+frontend/build/
+frontend/dist/
+frontend/node_modules/
+
+# Development files that shouldn't be committed
+package-lock.json  # Only if you're committing package-lock.json, otherwise remove this line
+node_modules/
+.pnp/
+.pnp.js
+cloudbuild.yaml
+*.md  # Only include documentation files you want, not all markdown files
+
+# Various IDE and editor files
+.vs/
+!.vscode/tasks.json
+!.vscode/launch.json
+*.swp
+*.swo
+*~
+.project
+.idea
+*.tmproj
+nbproject
+
+# OS generated files
+ehthumbs.db
+Trashes
+Icon?
+VolumeIcon.icns
+
+# Docker and container files
+.docker/
+*.dockerignore
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Large asset files that should be stored elsewhere
+*.zip
+*.rar
+*.tar
+*.gz
+*.7z
+*.dmg
+*.iso
+*.so
+*.dll
+*.exe
+*.bin
+*.o
+*.a
+*.lib
+*.obj
+*.out
+*.pid
+*.seed
+*.prof
+
+# ML/AI specific large files
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.onnx
+*.pb
+*.tflite
+*.joblib
+*.pickle
+*.pkl
+
+# Backup files
+*.backup
+*.bak
+*~
+*.tmp
+*.temp
+*#
+*.save
+*.orig
+*.rej
+*~
+
+# Editor temporary files
+*~
+.swp
+.swo
+.viminfo
+.netrwhist
+.directory
+.CFUserTextEncoding
+
+# Cloud IDE files
+.cloudshell/
+.devcontainer/

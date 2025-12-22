@@ -1,0 +1,92 @@
+# API Contract: RAG Chatbot for ROS 2 Teaching Modules
+
+## Overview
+This API provides a Retrieval-Augmented Generation (RAG) chatbot that can answer questions specifically about the ROS 2 teaching modules content. The chatbot ensures responses are grounded in the book content with proper citations.
+
+## Endpoints
+
+### POST /api/chat/query
+Submit a question about ROS 2 content and receive a response grounded in the teaching materials.
+
+**Request**:
+```json
+{
+  "query": "string, the user's question about ROS 2",
+  "context": {
+    "module": "string, optional module identifier (e.g., 'module-1')",
+    "chapter": "string, optional chapter identifier (e.g., 'chapter-1-ros2-fundamentals')",
+    "include_citations": "boolean, whether to include source citations (default: true)"
+  }
+}
+```
+
+**Response**:
+```json
+{
+  "response": "string, the chatbot's answer to the question",
+  "sources": [
+    {
+      "title": "string, title of the source material",
+      "url": "string, URL to the source in the documentation",
+      "chapter": "string, chapter identifier",
+      "confidence": "number, 0-1 confidence score for this source"
+    }
+  ],
+  "query_id": "string, unique identifier for this query"
+}
+```
+
+**Error Responses**:
+- 400: Invalid request format
+- 422: Query cannot be answered based on available content
+- 500: Internal server error
+
+### GET /api/content/modules
+Retrieve a list of available modules in the ROS 2 teaching content.
+
+**Response**:
+```json
+{
+  "modules": [
+    {
+      "id": "string, unique module identifier",
+      "title": "string, module title",
+      "description": "string, brief description",
+      "chapters_count": "number, number of chapters in the module"
+    }
+  ]
+}
+```
+
+### GET /api/content/chapters/{module_id}
+Retrieve a list of chapters for a specific module.
+
+**Path Parameters**:
+- module_id: string, the identifier of the module
+
+**Response**:
+```json
+{
+  "module_id": "string, identifier of the parent module",
+  "chapters": [
+    {
+      "id": "string, unique chapter identifier",
+      "title": "string, chapter title",
+      "description": "string, brief description",
+      "estimated_reading_time": "number, estimated time in minutes"
+    }
+  ]
+}
+```
+
+## Validation Rules
+
+1. All queries must be related to ROS 2 content covered in the teaching modules
+2. Responses must cite the specific chapters/sections where information was found
+3. If content is not available in the knowledge base, the API must return a 422 error
+4. All responses must adhere to the "source-grounded accuracy" principle
+
+## Security
+
+- Rate limiting: Maximum 100 requests per hour per IP
+- Content filtering: Queries and responses are filtered for appropriate educational content

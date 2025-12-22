@@ -1,0 +1,39 @@
+ros2:
+  label: 'ROS 2'
+  permalink: '/tags/ros2'
+  description: 'Posts about Robot Operating System 2 for humanoid robotics'
+
+humanoid-robotics:
+  label: 'Humanoid Robotics'
+  permalink: '/tags/humanoid-robotics'
+  description: 'Posts about humanoid robot design and development'
+
+ai:
+  label: 'AI'
+  permalink: '/tags/ai'
+  description: 'Posts about artificial intelligence in robotics'
+
+simulation:
+  label: 'Simulation'
+  permalink: '/tags/simulation'
+  description: 'Posts about robotics simulation and digital twins'
+
+isaac-sim:
+  label: 'Isaac Sim'
+  permalink: '/tags/isaac-sim'
+  description: 'Posts about NVIDIA Isaac Sim for robotics'
+
+vla:
+  label: 'Vision-Language-Action'
+  permalink: '/tags/vla'
+  description: 'Posts about Vision-Language-Action robotics'
+
+nvidia:
+  label: 'NVIDIA'
+  permalink: '/tags/nvidia'
+  description: 'Posts about NVIDIA technologies for robotics'
+
+middleware:
+  label: 'Middleware'
+  permalink: '/tags/middleware'
+  description: 'Posts about robotics communication middleware'

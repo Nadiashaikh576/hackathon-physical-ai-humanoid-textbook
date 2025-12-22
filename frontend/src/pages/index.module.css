@@ -1,0 +1,99 @@
+/**
+ * CSS module for the homepage
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.modulesSection {
+  padding: 4rem 0;
+}
+
+.progressSection {
+  padding: 4rem 0;
+}
+
+.featuresSection {
+  padding: 4rem 0;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-heading-color);
+}
+
+.sectionDescription {
+  text-align: center;
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.sectionBg {
+  background-color: rgba(37, 99, 235, 0.03);
+}
+
+html[data-theme='dark'] .sectionBg {
+  background-color: rgba(30, 58, 138, 0.1);
+}
+
+.progressCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.progressCards .card {
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+}
+
+@media screen and (max-width: 996px) {
+  .progressCards {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .progressCards .card {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .modulesSection,
+  .progressSection,
+  .featuresSection {
+    padding: 2rem 0;
+  }
+  
+  .sectionTitle {
+    font-size: 1.75rem;
+  }
+  
+  .sectionDescription {
+    font-size: 1rem;
+  }
+}

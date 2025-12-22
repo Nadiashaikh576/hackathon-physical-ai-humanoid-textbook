@@ -1,0 +1,72 @@
+.progressIndicator {
+  display: flex;
+  align-items: center;
+  padding: var(--ifm-spacing-sm) var(--ifm-spacing-md);
+  border-radius: var(--ifm-global-radius);
+  background-color: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  margin: var(--ifm-spacing-md) 0;
+}
+
+.progressBar {
+  flex-grow: 1;
+  height: 12px;
+  background-color: var(--ifm-color-emphasis-200);
+  border-radius: 9999px;
+  margin: 0 var(--ifm-spacing-sm);
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--robotics-blue), var(--ai-purple));
+  border-radius: 9999px;
+  transition: width 0.3s ease;
+}
+
+.label {
+  font-weight: 500;
+  color: var(--ifm-color-emphasis-800);
+  min-width: 120px;
+}
+
+.percentage {
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-800);
+  min-width: 40px;
+  text-align: right;
+}
+
+/* Dark mode adjustments */
+html[data-theme='dark'] .progressIndicator {
+  background-color: var(--ifm-color-emphasis-800);
+  border-color: var(--ifm-color-emphasis-600);
+}
+
+html[data-theme='dark'] .progressBar {
+  background-color: var(--ifm-color-emphasis-700);
+}
+
+html[data-theme='dark'] .label,
+html[data-theme='dark'] .percentage {
+  color: var(--ifm-color-emphasis-200);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .progressIndicator {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--ifm-spacing-sm);
+  }
+  
+  .label {
+    min-width: unset;
+    text-align: center;
+  }
+  
+  .percentage {
+    min-width: unset;
+    text-align: center;
+  }
+}

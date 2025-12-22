@@ -1,0 +1,94 @@
+.exerciseBlock {
+  border: 2px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-global-radius);
+  padding: var(--ifm-spacing-md);
+  margin: var(--ifm-spacing-lg) 0;
+  background-color: var(--ifm-color-emphasis-0);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--ifm-spacing-sm);
+  padding-bottom: var(--ifm-spacing-xs);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.title {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-size: var(--ifm-h4-font-size);
+  font-weight: var(--ifm-font-weight-bold);
+}
+
+.icon {
+  margin-right: var(--ifm-spacing-xs);
+}
+
+.difficultyBadge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: var(--ifm-font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badgeBeginner {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.badgeIntermediate {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.badgeAdvanced {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+.content {
+  margin-top: var(--ifm-spacing-sm);
+}
+
+/* Dark mode adjustments */
+html[data-theme='dark'] .exerciseBlock {
+  border-color: var(--ifm-color-emphasis-600);
+  background-color: var(--ifm-color-emphasis-900);
+}
+
+html[data-theme='dark'] .header {
+  border-bottom: 1px solid var(--ifm-color-emphasis-700);
+}
+
+html[data-theme='dark'] .badgeBeginner {
+  background-color: #22c55e;
+  color: #ffffff;
+}
+
+html[data-theme='dark'] .badgeIntermediate {
+  background-color: #f59e0b;
+  color: #ffffff;
+}
+
+html[data-theme='dark'] .badgeAdvanced {
+  background-color: #ef4444;
+  color: #ffffff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--ifm-spacing-xs);
+  }
+  
+  .difficultyBadge {
+    align-self: flex-end;
+  }
+}
