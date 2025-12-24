@@ -13,9 +13,6 @@ The perception-to-manipulation pipeline consists of four key stages:
 
 These stages must work together seamlessly to enable autonomous behavior.
 
-![Perception-to-Manipulation Pipeline](/img/perception-to-manipulation-pipeline.png)
-*Figure 4.8: Complete pipeline showing the flow from environmental perception to physical manipulation in humanoid robots.*
-
 ## Perception Systems
 
 Perception forms the foundation of autonomous behavior:

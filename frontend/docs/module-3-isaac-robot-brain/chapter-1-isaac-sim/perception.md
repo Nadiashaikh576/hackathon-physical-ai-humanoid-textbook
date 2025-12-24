@@ -11,12 +11,6 @@ In humanoid robotics, perception encompasses:
 - Auditory input through microphones
 - Proprioceptive awareness of body position and movement
 
-![Perception System Overview](/img/perception-system-overview.png)
-*Figure 1.1: Overview of a humanoid robot's perception system showing the integration of multiple sensor types.*
-
-![Sensor Fusion Process](/img/sensor-fusion-process.png)
-*Figure 1.2: Visualization of sensor fusion process where data from multiple sensors is combined to create a comprehensive environmental understanding.*
-
 ## Isaac Sim's Contribution
 
 NVIDIA Isaac Sim provides a photorealistic simulation environment that allows for the development and testing of perception systems in a safe, controlled setting. This includes:

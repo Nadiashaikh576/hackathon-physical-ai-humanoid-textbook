@@ -25,7 +25,4 @@ This chapter represents the culmination of the module, showing how voice-to-acti
 4. [Executing multi-step tasks in dynamic environments](../chapter-3-autonomous-humanoid/multi-step-tasks.md)
 5. [Connecting all previous modules into one system](../chapter-3-autonomous-humanoid/module-integration.md)
 
-![Complete Autonomous System](/img/complete-autonomous-system.png)
-*Figure 4.4: Overview of the complete autonomous humanoid system showing how all components integrate to enable autonomous behavior.*
-
 Let's begin by understanding the complete end-to-end VLA pipeline.

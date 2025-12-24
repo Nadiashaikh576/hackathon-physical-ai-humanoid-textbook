@@ -10,9 +10,6 @@ This module explores how humanoid robots integrate vision, language, and action 
 - Cognitive planning using Large Language Models (LLMs)
 - End-to-end autonomous humanoid behavior
 
-![VLA Paradigm Overview](/img/vla-pipeline.png)
-*Figure 4.1: Overview of the Vision-Language-Action paradigm showing how vision, language, and action components interact in humanoid robots.*
-
 ## Learning Outcomes
 
 By the end of this module, you should be able to:
