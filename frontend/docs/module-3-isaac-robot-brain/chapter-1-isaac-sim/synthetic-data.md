@@ -21,11 +21,11 @@ NVIDIA Isaac Sim provides powerful tools for synthetic data generation:
 - **Sensor Simulation**: Accurate modeling of camera, LiDAR, and other sensors
 - **Annotation Tools**: Automatic generation of ground truth labels
 
-![Synthetic Data Pipeline](/img/synthetic-data-pipeline.png)
+<!-- ![Synthetic Data Pipeline](/img/synthetic-data-pipeline.png)
 *Figure 1.5: Visualization of the synthetic data generation pipeline from environment setup to annotated dataset output.*
 
 ![Real vs Synthetic Data Comparison](/img/real-vs-synthetic-comparison.png)
-*Figure 1.6: Comparison showing examples of real data and synthetic data for the same scene.*
+*Figure 1.6: Comparison showing examples of real data and synthetic data for the same scene.* -->
 
 ## Advantages of Synthetic Data
 

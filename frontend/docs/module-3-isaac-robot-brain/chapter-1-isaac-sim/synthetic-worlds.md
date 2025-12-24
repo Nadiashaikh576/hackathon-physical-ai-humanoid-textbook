@@ -19,11 +19,11 @@ NVIDIA Isaac Sim addresses these challenges by providing:
 - **Sensor Simulation**: Emulation of various robot sensors including cameras, LiDAR, and IMUs
 - **Environment Variety**: Tools to create diverse indoor and outdoor environments
 
-![Isaac Sim Architecture](/img/isaac-sim-architecture.png)
+<!-- ![Isaac Sim Architecture](/img/isaac-sim-architecture.png)
 *Figure 1.3: Architecture diagram showing how Isaac Sim integrates with AI training workflows.*
 
 ![Simulation vs Reality Comparison](/img/simulation-reality-comparison.png)
-*Figure 1.4: Comparison of a real-world scene and its photorealistic simulation counterpart.*
+*Figure 1.4: Comparison of a real-world scene and its photorealistic simulation counterpart.* -->
 
 ## Training Benefits
 
