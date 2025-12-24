@@ -27,7 +27,7 @@ const config = {
       onBrokenMarkdownImages: 'warn',
     },
   },
-  staticDirectories: ['static'],
+  staticDirectories: [],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -74,12 +74,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'frontend/static/img/docusaurus-social-card.jpg', // Local path for social card image
+      image: 'img/docusaurus-social-card.jpg', // Local path for social card image
       navbar: {
         title: 'ROS 2 Nervous System',
         logo: {
           alt: 'AI-Native Book Logo',
-          src: 'img/logo.svg', // Make sure this file exists in static/img/
+          src: 'img/logo.svg', // Using default Docusaurus logo
         },
         items: [
           {
