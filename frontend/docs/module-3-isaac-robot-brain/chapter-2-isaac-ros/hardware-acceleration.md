@@ -33,8 +33,8 @@ Isaac ROS packages leverage NVIDIA hardware acceleration:
 <!-- ![Isaac ROS Hardware Acceleration](/img/isaac-ros-hardware-acceleration.png)
 *Figure 2.3: Architecture diagram showing how Isaac ROS packages leverage NVIDIA hardware acceleration.*
 
-![GPU vs CPU Processing](/img/gpu-cpu-processing-comparison.png)
-*Figure 2.4: Comparison of processing performance between GPU and CPU for perception tasks.* -->
+<!-- ![GPU vs CPU Processing](/img/gpu-cpu-processing-comparison.png) -->
+<!-- *Figure 2.4: Comparison of processing performance between GPU and CPU for perception tasks.* --> -->
 
 ## Benefits of Hardware Acceleration
 

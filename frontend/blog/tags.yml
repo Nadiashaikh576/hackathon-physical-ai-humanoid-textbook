@@ -37,3 +37,53 @@ middleware:
   label: 'Middleware'
   permalink: '/tags/middleware'
   description: 'Posts about robotics communication middleware'
+
+robotics:
+  label: 'Robotics'
+  permalink: '/tags/robotics'
+  description: 'Posts about robotics in general'
+
+ai-integration:
+  label: 'AI Integration'
+  permalink: '/tags/ai-integration'
+  description: 'Posts about integrating AI technologies in robotics'
+
+robotics-architecture:
+  label: 'Robotics Architecture'
+  permalink: '/tags/robotics-architecture'
+  description: 'Posts about robotics system architecture'
+
+multi-modal-ai:
+  label: 'Multi-Modal AI'
+  permalink: '/tags/multi-modal-ai'
+  description: 'Posts about multi-modal AI systems in robotics'
+
+vision:
+  label: 'Vision'
+  permalink: '/tags/vision'
+  description: 'Posts about computer vision in robotics'
+
+language:
+  label: 'Language'
+  permalink: '/tags/language'
+  description: 'Posts about language processing in robotics'
+
+action:
+  label: 'Action'
+  permalink: '/tags/action'
+  description: 'Posts about action planning and execution in robotics'
+
+digital-twins:
+  label: 'Digital Twins'
+  permalink: '/tags/digital-twins'
+  description: 'Posts about digital twin technology in robotics'
+
+development:
+  label: 'Development'
+  permalink: '/tags/development'
+  description: 'Posts about development practices in robotics'
+
+testing:
+  label: 'Testing'
+  permalink: '/tags/testing'
+  description: 'Posts about testing methodologies in robotics'

@@ -25,7 +25,7 @@ Voice interfaces are crucial for humanoid robots because they enable natural hum
 4. [Integrating voice input with ROS 2 systems](../chapter-1-voice-to-action/ros2-integration.md)
 5. [Limitations and latency considerations](../chapter-1-voice-to-action/limitations-latency.md)
 
-![Voice-to-Action Pipeline](/img/voice-to-action-pipeline.png)
-*Figure 4.2: Overview of the voice-to-action conversion pipeline showing how speech is processed into executable robot actions.*
+<!-- ![Voice-to-Action Pipeline](/img/voice-to-action-pipeline.png) -->
+<!-- *Figure 4.2: Overview of the voice-to-action conversion pipeline showing how speech is processed into executable robot actions.* -->
 
 Let's begin by understanding why voice is such a natural interface for humanoids.

@@ -44,11 +44,11 @@ A typical humanoid robot path planning system includes:
 5. **Local Adaptation**: Adjusting to local obstacles and conditions
 6. **Execution**: Following the planned path
 
-![Path Planning Pipeline](/img/digital-twin-simulation.png)
-*Figure 3.1: Visualization of the complete path planning pipeline for humanoid robots.*
+<!-- ![Path Planning Pipeline](/img/digital-twin-simulation.png) -->
+<!-- *Figure 3.1: Visualization of the complete path planning pipeline for humanoid robots.* -->
 
-![Footstep Planning Example](/img/humanoid-robot.jpg)
-*Figure 3.2: Example of footstep planning showing optimal placement for stable locomotion.*
+<!-- ![Footstep Planning Example](/img/humanoid-robot.jpg) -->
+<!-- *Figure 3.2: Example of footstep planning showing optimal placement for stable locomotion.* -->
 
 ## Global Path Planning Algorithms
 

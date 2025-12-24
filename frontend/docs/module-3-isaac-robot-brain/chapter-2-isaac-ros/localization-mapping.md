@@ -23,11 +23,11 @@ Different mapping approaches serve different purposes:
 - **Metric Maps**: Geometrically accurate representations
 - **Semantic Maps**: Maps with object labels and meanings
 
-![Mapping Representations Comparison](/img/mapping-representations-comparison.png)
-*Figure 2.5: Comparison of different mapping representations for the same environment.*
+<!-- ![Mapping Representations Comparison](/img/mapping-representations-comparison.png) -->
+<!-- *Figure 2.5: Comparison of different mapping representations for the same environment.* -->
 
-![SLAM Process Visualization](/img/slam-process-visualization.png)
-*Figure 2.6: Visualization of the SLAM process showing how the robot builds a map while localizing itself.*
+<!-- ![SLAM Process Visualization](/img/slam-process-visualization.png) -->
+<!-- *Figure 2.6: Visualization of the SLAM process showing how the robot builds a map while localizing itself.* -->
 
 ## Challenges in Complex Environments
 

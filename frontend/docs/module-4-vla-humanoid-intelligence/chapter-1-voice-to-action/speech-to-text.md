@@ -19,8 +19,8 @@ Whisper uses a transformer-based architecture to process audio input:
 - **Encoder-decoder structure**: The transformer model processes audio and generates text
 - **Multitask training**: Trained on various tasks including speech recognition, translation, and language identification
 
-![Whisper Architecture](/img/whisper-architecture.png)
-*Figure 4.6: Transformer-based architecture of OpenAI Whisper showing the encoder-decoder structure for speech-to-text conversion.*
+<!-- ![Whisper Architecture](/img/whisper-architecture.png) -->
+<!-- *Figure 4.6: Transformer-based architecture of OpenAI Whisper showing the encoder-decoder structure for speech-to-text conversion.* -->
 
 ## Applications in Robotics
 

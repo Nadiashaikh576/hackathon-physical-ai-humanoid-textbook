@@ -27,8 +27,8 @@ Compared to other human-robot interaction methods, voice interfaces offer:
 - **Faster communication**: More efficient than graphical interfaces for complex requests
 - **Multimodal integration**: Can be combined with gesture and visual attention for richer interaction
 
-![Voice Interface Advantages](/img/voice-interface-advantages.png)
-*Figure 4.5: Comparison of different human-robot interaction methods showing the advantages of voice interfaces.*
+<!-- ![Voice Interface Advantages](/img/voice-interface-advantages.png) -->
+<!-- *Figure 4.5: Comparison of different human-robot interaction methods showing the advantages of voice interfaces.* -->
 
 ## Challenges in Implementation
 

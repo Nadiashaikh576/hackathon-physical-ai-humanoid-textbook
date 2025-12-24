@@ -9,7 +9,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://ai-book-nadiashaikh576.vercel.app',
+  url: 'https://your-deployment-url.com',  // Replace with actual deployment URL
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub Pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -74,12 +74,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/logo.svg',
+      image: 'frontend/static/img/docusaurus-social-card.jpg', // Local path for social card image
       navbar: {
         title: 'ROS 2 Nervous System',
         logo: {
           alt: 'AI-Native Book Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.svg', // Make sure this file exists in static/img/
         },
         items: [
           {

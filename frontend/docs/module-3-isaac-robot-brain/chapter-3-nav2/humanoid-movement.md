@@ -23,8 +23,8 @@ Humanoid robots can use various walking patterns:
 <!-- ![Walking Gait Comparison](/img/walking-gait-comparison.png)
 *Figure 3.7: Comparison of different walking gaits and their stability characteristics.*
 
-![ZMP Control Visualization](/img/zmp-control-visualization.png)
-*Figure 3.8: Visualization of Zero Moment Point (ZMP) control during humanoid walking.* -->
+<!-- ![ZMP Control Visualization](/img/zmp-control-visualization.png) -->
+<!-- *Figure 3.8: Visualization of Zero Moment Point (ZMP) control during humanoid walking.* --> -->
 
 ## Balance Control Systems
 

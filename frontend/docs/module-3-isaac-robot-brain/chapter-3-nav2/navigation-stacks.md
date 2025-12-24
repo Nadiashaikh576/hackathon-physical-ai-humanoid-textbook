@@ -16,8 +16,8 @@ A complete navigation stack includes:
 <!-- ![Navigation Stack Architecture](/img/navigation-stack-architecture.png)
 *Figure 3.5: Architecture diagram showing all components of a complete navigation stack.*
 
-![Navigation Stack Data Flow](/img/navigation-stack-data-flow.png)
-*Figure 3.6: Data flow diagram showing how information moves through the navigation stack components.* -->
+<!-- ![Navigation Stack Data Flow](/img/navigation-stack-data-flow.png) -->
+<!-- *Figure 3.6: Data flow diagram showing how information moves through the navigation stack components.* --> -->
 
 ## Navigation2 (Nav2) Overview
 

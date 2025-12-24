@@ -22,8 +22,8 @@ NVIDIA Isaac Sim addresses these challenges by providing:
 <!-- ![Isaac Sim Architecture](/img/isaac-sim-architecture.png)
 *Figure 1.3: Architecture diagram showing how Isaac Sim integrates with AI training workflows.*
 
-![Simulation vs Reality Comparison](/img/simulation-reality-comparison.png)
-*Figure 1.4: Comparison of a real-world scene and its photorealistic simulation counterpart.* -->
+<!-- ![Simulation vs Reality Comparison](/img/simulation-reality-comparison.png) -->
+<!-- *Figure 1.4: Comparison of a real-world scene and its photorealistic simulation counterpart.* --> -->
 
 ## Training Benefits
 
