@@ -1,15 +1,16 @@
 // @ts-check
 // `@type` JSDoc annotations allow IDEs and type-checking tools to autocomplete
 // import {themes as prismThemes} from '@docusaurus/module-type-aliases';
+const prismThemes = require('prism-react-renderer').themes;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'AI-Native Book: Physical AI & Humanoid Robotics',
-  tagline: 'Teaching ROS 2 as the core middleware connecting AI intelligence to humanoid robot bodies',
+  tagline: 'A complete and practical learning system where you master the future: humanoid robotics, ROS 2, large action models, simulation, VLA systems, hardware, and advanced AI for next-generation intelligent machines.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-deployment-url.com',  // Replace with actual deployment URL
+  url: 'https://ai-book.vercel.app',  // Replace with actual deployment URL
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub Pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -17,8 +18,10 @@ const config = {
   // GitHub pages deployment config.
   organizationName: 'ai-book-project', // Usually your GitHub org/user name.
   projectName: 'ai-book', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
   markdown: {
     format: 'mdx',
     mermaid: false,
@@ -74,12 +77,14 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg', // Local path for social card image
+        image: 'img/logo.png', // Local path for social card image
       navbar: {
-        title: 'ROS 2 Nervous System',
+        title: 'Physical AI & Humanoid Robotics Textbook',
         logo: {
           alt: 'AI-Native Book Logo',
-          src: 'img/logo.svg', // Using default Docusaurus logo
+          src: 'img/logo.png', // Using our custom logo
+           width: 32,
+           height: 32,
         },
         items: [
           {
@@ -87,6 +92,16 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Modules',
+          },
+          {
+            to: '/about',
+            label: 'About',
+            position: 'left',
+          },
+          {
+            to: '/contact',
+            label: 'Contact Us',
+            position: 'left',
           },
           {
             href: 'https://github.com/Nadiashaikh576/hackathon-physical-ai-humanoid-textbook',
@@ -136,6 +151,14 @@ const config = {
             title: 'More',
             items: [
               {
+                label: 'About',
+                to: '/about',
+              },
+              {
+                label: 'Contact Us',
+                to: '/contact',
+              },
+              {
                 label: 'GitHub',
                 href: 'https://github.com/Nadiashaikh576/hackathon-physical-ai-humanoid-textbook',
               },
@@ -144,10 +167,10 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} AI-Native Book Project. Built with Docusaurus.`,
       },
-      // prism: {
-      //   theme: prismThemes.github,
-      //   darkTheme: prismThemes.dracula,
-      // },
+      prism: {
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
+      },
 
     }),
 };
