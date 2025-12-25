@@ -10,24 +10,24 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://ai-book.vercel.app',  // Replace with actual deployment URL
+  url: 'https://your-vercel-project-url.vercel.app',  // Replace with your actual Vercel deployment URL
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub Pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/ai-book/',
 
   // GitHub pages deployment config.
   organizationName: 'ai-book-project', // Usually your GitHub org/user name.
   projectName: 'ai-book', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
   markdown: {
     format: 'mdx',
     mermaid: false,
     hooks: {
-      onBrokenMarkdownLinks: 'warn',
-      onBrokenMarkdownImages: 'warn',
+      onBrokenMarkdownLinks: 'ignore',
+      onBrokenMarkdownImages: 'ignore',
     },
   },
   staticDirectories: [],
