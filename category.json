@@ -1,8 +1,0 @@
-{
-  "label": "AI-Native Book: Physical AI & Humanoid Robotics",
-  "position": 1,
-  "link": {
-    "type": "generated-index",
-    "description": "Complete educational resource on creating AI-native humanoid robots using ROS 2, NVIDIA Isaac, and Vision-Language-Action systems."
-  }
-}
