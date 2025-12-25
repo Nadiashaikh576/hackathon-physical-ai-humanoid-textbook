@@ -1,2 +1,5 @@
 .vercel
 .env*.local
+build/
+.docusaurus/
+node_modules/
