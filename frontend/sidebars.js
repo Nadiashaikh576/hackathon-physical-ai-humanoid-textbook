@@ -3,6 +3,7 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   tutorialSidebar: [
+    'intro',
     {
       type: 'category',
       label: 'Module 1: The Robotic Nervous System (ROS 2)',
@@ -108,5 +109,5 @@ const sidebars = {
     },
   ],
 };
-
-export default sidebars;
+// export default sidebars;
+module.exports = sidebars;

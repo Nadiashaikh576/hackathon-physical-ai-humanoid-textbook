@@ -10,34 +10,35 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-vercel-project-url.vercel.app',  // Replace with your actual Vercel deployment URL
+  url: 'https://ai-book-frontend-git-main-nadiashaikh576s-projects.vercel.app',  // Updated Vercel deployment URL
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub Pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ai-book/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   organizationName: 'ai-book-project', // Usually your GitHub org/user name.
   projectName: 'ai-book', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
-  onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'ignore',
-  markdown: {
-    format: 'mdx',
-    mermaid: false,
-    hooks: {
-      onBrokenMarkdownLinks: 'ignore',
-      onBrokenMarkdownImages: 'ignore',
-    },
-  },
-  staticDirectories: [],
+  
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+  // markdown: {
+  //  format: 'mdx',
+  //    mermaid: false,
+  //   hooks: {
+  //     onBrokenMarkdownLinks: 'warn',
+  //      onBrokenMarkdownImages: 'ignore',
+  //   },
+  // },
+  // staticDirectories: [],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en','ur'],
   },
 
   presets: [
@@ -46,12 +47,12 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          // sidebarPath: './sidebars.js',
+        // sidebarPath: './sidebars.js',
         sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Nadiashaikh576/hackathon-physical-ai-humanoid-textbook/edit/main/',
+            'https://github.com/Nadiashaikh576/ai-book-frontend/edit/main/',
         },
         blog: {
           path: 'blog',
@@ -83,8 +84,7 @@ const config = {
         logo: {
           alt: 'AI-Native Book Logo',
           src: 'img/logo.png', // Using our custom logo
-           width: 32,
-           height: 32,
+           
         },
         items: [
           {
@@ -104,7 +104,7 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://github.com/Nadiashaikh576/hackathon-physical-ai-humanoid-textbook',
+            href: 'https://github.com/Nadiashaikh576/ai-book-frontend',
             label: 'GitHub',
             position: 'right',
           },
@@ -160,7 +160,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/Nadiashaikh576/hackathon-physical-ai-humanoid-textbook',
+                href: 'https://github.com/Nadiashaikh576/ai-book-frontend',
               },
             ],
           },
