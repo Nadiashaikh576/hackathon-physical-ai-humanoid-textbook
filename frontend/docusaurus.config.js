@@ -83,7 +83,6 @@ const config = {
         logo: {
           alt: 'AI-Native Book Logo',
           src: 'img/logo.png', // Using our custom logo
-           
         },
         items: [
           {
