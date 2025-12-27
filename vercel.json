@@ -1,7 +1,0 @@
-{
-  "framework": "docusaurus",
-  "rootDirectory": "frontend",
-  "buildCommand": "npm run build",
-  "outputDirectory": "frontend/build",
-  "installCommand": "npm install"
-}
