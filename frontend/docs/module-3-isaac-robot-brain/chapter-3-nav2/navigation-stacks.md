@@ -13,12 +13,6 @@ A complete navigation stack includes:
 - **Controller**: Executing navigation plans while maintaining balance
 - **Safety**: Ensuring safe operation during navigation
 
-<!-- ![Navigation Stack Architecture](/img/navigation-stack-architecture.png)
-*Figure 3.5: Architecture diagram showing all components of a complete navigation stack.*
-
-<!-- ![Navigation Stack Data Flow](/img/navigation-stack-data-flow.png) -->
-<!-- *Figure 3.6: Data flow diagram showing how information moves through the navigation stack components.* --> -->
-
 ## Navigation2 (Nav2) Overview
 
 Navigation2 is the state-of-the-art navigation framework for ROS 2:

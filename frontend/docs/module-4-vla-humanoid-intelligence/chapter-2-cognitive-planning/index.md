@@ -25,7 +25,4 @@ This chapter builds on the voice-to-action concepts from Chapter 1, showing how 
 4. [Error handling and replanning](error-handling.md)
 5. [Safety and controllability](safety-controllability.md)
 
-<!-- ![Cognitive Planning Process](/img/cognitive-planning-process.png) -->
-<!-- *Figure 4.3: Visualization of the cognitive planning process showing how LLMs translate natural language goals into action sequences.* -->
-
 Let's begin by understanding how LLMs function as reasoning engines for robot behavior.

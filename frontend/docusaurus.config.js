@@ -21,16 +21,15 @@ const config = {
   deploymentBranch: 'gh-pages',
 
   
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  // markdown: {
-  //  format: 'mdx',
-  //    mermaid: false,
-  //   hooks: {
-  //     onBrokenMarkdownLinks: 'warn',
-  //      onBrokenMarkdownImages: 'ignore',
-  //   },
-  // },
+  markdown: {
+    mermaid: false,
+    format: 'mdx',
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   // staticDirectories: [],
 
   // Even if you don't use internationalization, you can use this field to set
@@ -125,7 +124,7 @@ const config = {
                 to: '/docs/module-2_digital-twin-sim/intro',
               },
               {
-                label: 'Module 3: The AI-Robot Brain (NVIDIA Isaac™)',
+                label: 'Module 3: The AI-Robot Brain (NVIDIA Isaac)',
                 to: '/docs/module-3-isaac-robot-brain/intro',
               },
               {

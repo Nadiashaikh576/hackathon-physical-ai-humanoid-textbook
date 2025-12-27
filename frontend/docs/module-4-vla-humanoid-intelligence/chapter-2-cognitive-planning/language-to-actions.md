@@ -32,9 +32,6 @@ Robots represent actions using various formalisms:
 - **Hierarchical actions**: Complex actions composed of simpler sub-actions
 - **Probabilistic actions**: Actions with uncertain outcomes
 
-<!-- ![Action Representation Hierarchy](/img/action-representation-hierarchy.png) -->
-<!-- *Figure 4.7: Hierarchical representation of robot actions showing the relationship between high-level goals and low-level motor commands.* -->
-
 ## Planning Algorithms for Translation
 
 Various approaches translate language to action sequences:

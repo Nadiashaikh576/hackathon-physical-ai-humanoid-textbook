@@ -31,12 +31,6 @@ The integration between Isaac ROS and ROS 2 systems involves:
 - **TF Framework**: ROS 2 transform system for coordinate management
 - **ROS Bags**: ROS 2 recording and playback for Isaac ROS data
 
-<!-- ![Isaac ROS Integration Architecture](/img/isaac-ros-integration-architecture.png) -->
-<!-- *Figure 2.7: Architecture diagram showing the integration points between Isaac ROS and ROS 2 systems.* -->
-
-<!-- ![Component Interaction Flow](/img/component-interaction-flow.png) -->
-<!-- *Figure 2.8: Flow diagram showing how different components interact in the integrated system.* -->
-
 ## Hardware Requirements
 
 Isaac ROS requires specific NVIDIA hardware:

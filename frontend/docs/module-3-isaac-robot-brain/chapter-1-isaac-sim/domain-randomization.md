@@ -20,12 +20,6 @@ Domain randomization addresses the reality gap by:
 - **Changing Physical Properties**: Modifying friction, gravity, and other physics parameters
 - **Diverse Scenarios**: Creating many different but plausible environments
 
-<!-- ![Domain Randomization Process](/img/domain-randomization-process.png) -->
-<!-- *Figure 1.7: Visualization of domain randomization showing the same scene with different randomized parameters.* -->
-
-<!-- ![Reality Gap Reduction](/img/reality-gap-reduction.png) -->
-<!-- *Figure 1.8: Diagram showing how domain randomization helps reduce the reality gap between simulation and real-world performance.* -->
-
 ## Implementation in Isaac Sim
 
 NVIDIA Isaac Sim provides tools for domain randomization:

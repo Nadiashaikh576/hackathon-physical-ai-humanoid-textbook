@@ -39,12 +39,6 @@ Different approaches to obstacle avoidance:
 - **Learning-based**: Using experience to improve avoidance
 - **Model-based**: Using physics models of obstacles
 
-<!-- ![Obstacle Avoidance Strategies](/img/obstacle-avoidance-strategies.png)
-*Figure 3.3: Comparison of different obstacle avoidance strategies.*
-
-<!-- ![Safe Navigation Path](/img/safe-navigation-path.png) -->
-<!-- *Figure 3.4: Example of a navigation path adjusted to avoid obstacles safely.* --> -->
-
 ## Humanoid-Specific Challenges
 
 Humanoid robots face unique obstacle avoidance challenges:

@@ -30,12 +30,6 @@ The typical VSLAM pipeline includes:
 5. **Mapping**: Building a 3D map of the environment
 6. **Loop Closure**: Recognizing previously visited locations
 
-<!-- ![VSLAM Pipeline Overview](/img/vslam-pipeline-overview.png) -->
-<!-- *Figure 2.1: Visualization of the complete VSLAM pipeline from image acquisition to map building.* -->
-
-<!-- ![Feature Tracking Example](/img/feature-tracking-example.png) -->
-<!-- *Figure 2.2: Example of feature points being tracked across multiple frames.* -->
-
 ## Challenges in VSLAM
 
 VSLAM faces several challenges:

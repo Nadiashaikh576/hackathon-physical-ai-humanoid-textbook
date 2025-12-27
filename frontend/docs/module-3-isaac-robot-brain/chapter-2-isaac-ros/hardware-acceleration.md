@@ -30,12 +30,6 @@ Isaac ROS packages leverage NVIDIA hardware acceleration:
 - **Isaac ROS Detection**: Accelerated object detection
 - **Isaac ROS Manipulation**: Accelerated manipulation planning
 
-<!-- ![Isaac ROS Hardware Acceleration](/img/isaac-ros-hardware-acceleration.png)
-*Figure 2.3: Architecture diagram showing how Isaac ROS packages leverage NVIDIA hardware acceleration.*
-
-<!-- ![GPU vs CPU Processing](/img/gpu-cpu-processing-comparison.png) -->
-<!-- *Figure 2.4: Comparison of processing performance between GPU and CPU for perception tasks.* --> -->
-
 ## Benefits of Hardware Acceleration
 
 - **Performance**: Dramatically faster processing of perception tasks
