@@ -8,7 +8,7 @@ venv/
 .env
 .DS_Store
 Thumbs.db
-
+nul
 # Docusaurus build output
 frontend/build/
 frontend/dist/
