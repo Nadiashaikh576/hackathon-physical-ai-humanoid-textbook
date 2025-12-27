@@ -10,10 +10,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://ai-book-frontend-git-main-nadiashaikh576s-projects.vercel.app',  // Updated Vercel deployment URL
+  url: 'https://nadiashaikh576s-projects.vercel.app',  // Updated Vercel deployment URL
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub Pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/nadiashaikh576s-projects/hackathon-physical-ai-humanoid-textbook1/',
 
   // GitHub pages deployment config.
   organizationName: 'ai-book-project', // Usually your GitHub org/user name.
@@ -77,7 +77,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-        image: 'img/logo.png', // Local path for social card image
+        // image: 'img/logo.png', // Local path for social card image
       navbar: {
         title: 'Physical AI & Humanoid Robotics Textbook',
         logo: {
